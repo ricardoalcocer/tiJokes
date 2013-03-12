@@ -1,0 +1,114 @@
+".container": {
+	backgroundColor:"white",
+	layout: 'vertical',
+	navBarHidden: true,
+	exitOnClose:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+".jokecontainer":{
+	backgroundColor:"white",
+	layout: 'vertical',
+	navBarHidden: true
+},
+"#header":{
+	height: "50dp",
+	backgroundColor: "#4698D6"
+},
+"#apptitle":{
+	font: {
+		fontSize: "20dp",
+		fontWeight: "bold"
+	},
+	color: "#fff"
+},
+"#appicon":{
+	width: "50dp",
+	height: "50dp",
+	left: "0",
+	backgroundImage: "/topicon.png"
+},
+"#rowContainer":{
+	height: "60dp",
+	top: "5dp",
+	right: "5dp",
+	bottom: "5dp",
+	left: "5dp",
+	backgroundColor: "#f9f9f9",
+	borderWidth: 1,
+	borderColor: "#cacaca",
+	borderRadius: 5
+},
+"#rowIcon":{
+	left: "5dp",
+	height: "50dp",
+	width: "50dp"
+},
+"#rowTitle":{
+	left: "60dp",
+	top: "5dp",
+	width: Ti.UI.SIZE,
+	font: {
+		fontSize: "15dp",
+		fontWeight: "bold"
+	},
+	color: "#000"
+},
+"#rowTypeContainer":{
+	bottom: "0",
+	height: "20dp",
+	width: Ti.UI.SIZE,
+	layout: "horizontal",
+	left: "60dp"
+},
+"#rowTypeCaption":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	font: {
+		fontSize: "12dp",
+		fontWeight: "bold"
+	},
+	color: "#B73B22"
+},
+"#rowTypeData":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	font: {
+		fontSize: "12dp"
+	},
+	color: "#000"
+},
+"#listrow":{
+	backgroundColor:"#e8e8e8"
+},
+"#header":{
+	height: "50dp",
+	backgroundColor: "#4698D6"
+},
+"#pagetitle":{
+	font: {
+		fontSize: "20dp",
+		fontWeight: "bold"
+	},
+	color: "#fff"
+},
+"#content":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+"#joke":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	top: "5dp",
+	left: "5dp",
+	font: {
+		fontSize: "20dp"
+	},
+	color: "#000"
+},
+"#backbutton":{
+    style:Titanium.UI.iPhone.SystemButtonStyle.BORDERED,
+    left: 3
+}
+
+
+

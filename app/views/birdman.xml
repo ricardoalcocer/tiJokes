@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="birdman" class="jokecontainer">
+		<View id="header">
+			<Button id="backbutton" platform="!android" onClick="closeme">Back</Button>
+			<Label id="pagetitle">Birdman</Label>
+		</View>
+		<View id="content">
+			<Label id="joke">
+Little girl: "Why does your son say, 'Cluck, cluck, cluck?'"
+
+Mother: "Because he thinks he's a chicken."
+
+Little girl: "Why don't you tell him he's not a chicken?"
+
+Mother: "Because we need the eggs."
+			</Label>
+		</View>
+	</Window>
+</Alloy>

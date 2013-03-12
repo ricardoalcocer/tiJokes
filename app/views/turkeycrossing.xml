@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="turkeycrossing" class="jokecontainer">
+		<View id="header">
+			<Button id="backbutton" platform="ios,mobileweb" onClick="closeme">Back</Button>
+			<Label id="pagetitle">Turkey Crossing</Label>
+		</View>
+		<View id="content">
+			<Label id="joke">
+Q: Why did the turkey cross the road?
+
+A: Because he wasn't a chicken.
+			</Label>
+		</View>
+	</Window>
+</Alloy>

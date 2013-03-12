@@ -1,0 +1,30 @@
+<Alloy>
+	<Window class="container">
+		<View id="header">
+			<View id="appicon"></View>
+			<Label id="apptitle">Funny Stuff</Label>
+		</View>
+		<TableView id="mainlist" onClick="onTableClick">
+			<TableViewRow id="listrow" eztiwin="turkeycrossing">
+				<View id="rowContainer">
+					<View id="rowIcon" backgroundImage="/happyface.png"></View>
+					<Label id="rowTitle">Turkey Crossing</Label>
+					<View id="rowTypeContainer">
+						<Label id="rowTypeCaption">Type:</Label>
+						<Label id="rowTypeData">Joke</Label>
+					</View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="listrow" eztiwin="birdman">
+				<View id="rowContainer">
+					<View id="rowIcon" backgroundImage="/happyface.png"></View>
+					<Label id="rowTitle">Birdman</Label>
+					<View id="rowTypeContainer">
+						<Label id="rowTypeCaption">Type:</Label>
+						<Label id="rowTypeData">Joke</Label>
+					</View>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>
